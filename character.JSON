@@ -1,0 +1,6 @@
+Object_name = goat
+character_movement [
+  if key_press = arrow_right
+    then move"goat" = right
+  if key_press = arrow_left
+    then move"goat" = left
